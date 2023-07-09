@@ -1,0 +1,28 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 12px;
+    padding: 6px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+nav li:hover{
+    color: rgb(109, 109, 122);
+}
+/* Nested menu styls */
+nav li .dropdown{
+    display: none;
+    position: absolute;
+    background-color: aqua;
+}
+nav li:hover .dropdown{
+    display: block;
+}
